@@ -1,0 +1,20 @@
+
+
+.menuItemsContainer {
+    border: 1px solid rgb(248, 244, 244);
+    align-items: center;
+    // justify-content: space-between;
+    font-size: 15px;
+    padding: 15px;
+    position: fixed;
+    width: -webkit-fill-available;
+    background-color: white;
+    margin-top: 76px;
+}
+
+.menuItems {
+    width: 1220px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(148, 143, 143);
+}

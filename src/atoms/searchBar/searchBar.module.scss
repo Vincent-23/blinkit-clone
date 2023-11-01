@@ -1,0 +1,18 @@
+
+
+.searchBarContainer {
+    display: flex;
+    // display: relative;
+    .searchIcon {
+        position: absolute;
+        padding: 8px;
+        min-width: 40px;
+    }
+
+    .searchField {
+        width: 500px;
+        height: 40px;
+        border-radius: 12px; 
+        border: 1px solid rgb(235, 232, 232);
+    }
+}

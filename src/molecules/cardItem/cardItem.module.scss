@@ -1,0 +1,47 @@
+.container {
+  align-items: start;
+}
+
+.itemContainer {
+  display: flex;
+  // border: none;
+  width: 240px;
+  padding: 4px;
+  border: 1px solid #eee;
+  border-bottom: none;
+  align-items: center;
+  position: relative;
+  background-color: #e7f8eb;
+
+  &:hover {
+    background-color: #80f499;
+  }
+  
+  // &.active {
+  //   background-color: #ebfeef;
+  //   &::before {
+  //     content: "";
+  //     width: 5px;
+  //     height: 100%;
+  //     background: #008001;
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //   }
+  // }
+}
+
+.imageContainer {
+  width: 30%;
+  height: 50px;
+}
+
+.imageItem {
+  width: 100%;
+  height: 100%;
+}
+
+.textItem {
+  width: 300px;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.container {
+  margin-top: 10px;
+  width: 1220px;
+  align-self: center;
+}
+
+.productItem {
+  align-self: flex-start;
+  width: 1220px;
+}
+.headerDropDown {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(244, 239, 239);
+  overflow: scroll;
+  margin-top: 120px;
+}
+
+.dropDownItem {
+  background-color: #fff;
+  // margin: 40px;
+}
+
+.cardItems {
+  height: 100%;
+  padding: 10px;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

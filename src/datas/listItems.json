@@ -1,0 +1,10 @@
+[
+    { "id":1, "label":"Vegitable & Fruits"},
+    { "id":2, "label":"Dairy & Breakfast"},
+    { "id":3, "label":"Munchies"},
+    { "id":4, "label":"cold Drinks & Juices"},
+    { "id":5, "label":"Instant & Frozen Food"},
+    { "id":6, "label":"Tea, coffee & Health Drinks"},
+    { "id":7, "label":"Bakery & Biscuits"},
+    { "id":8, "label":"More"}
+]

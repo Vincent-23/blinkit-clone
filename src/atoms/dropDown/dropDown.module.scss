@@ -1,0 +1,22 @@
+
+.container {
+    display: flex;
+    width: 300px;
+}
+.label {
+    font-size: 15px;
+    width: 400px;
+    text-align: right;
+    padding: 4px;
+    color: rgb(152, 152, 152);
+}
+
+/* Style for the select element */
+.select {
+    padding: 5px;
+    font-size: 12px;
+    color: green;
+    border: none;
+    width: 200px;
+    border: 1px solid rgb(197, 193, 193);
+}
