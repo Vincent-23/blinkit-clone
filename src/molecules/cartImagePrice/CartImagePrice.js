@@ -7,7 +7,8 @@ import Text from "../../atoms/text";
 import QuantityBtn from "../quantityBtn";
 import styles from './cartImagePrice.module.scss'
 
-const CartImagePrice = ({ items }) => {
+const CartImagePrice = ({ items, type }) => {
+
   return (
     <VerticalContainer className={classNames(styles.container)}>
      
@@ -20,7 +21,7 @@ const CartImagePrice = ({ items }) => {
               <Text className={classNames(styles.PriceText)}>{`₹ ${items?.actualPrice}`}</Text>
             {/* </HorizontalContainer> */}
           </VerticalContainer>
-          <QuantityBtn />
+          <QuantityBtn item={items} type={type}/>
         </HorizontalContainer>
 
     </VerticalContainer>

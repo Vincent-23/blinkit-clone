@@ -1,7 +1,6 @@
 import React from "react";
 import classNames from "classnames";
 import VerticalContainer from "../../atoms/verticalContainer";
-import HorizontaolContainer from "../../atoms/horizotalContainer";
 import CartHeader from "../../molecules/CartHeader";
 import CartImagePrice from "../../molecules/cartImagePrice";
 import CartLabelAndPrice from "../../molecules/cartLabelAndPrice";
@@ -10,13 +9,11 @@ import styles from "./cartDetails.module.scss";
 import { useSelector } from "react-redux";
 
 const CartImagePriceElement = ({ items }) => {
-  console.log('items!',items)
-  return items.map((cartItem) => <CartImagePrice items={cartItem} />);
+  return items.map((cartItem) => <CartImagePrice items={cartItem} type="Cart" />);
 };
 
 const CartDetails = ({ className = "" }) => {
   const values = useSelector((state) => state.cart);
-  console.log(values, "values from redux");
   return (
     <VerticalContainer className={classNames(styles.container, className)}>
       <CartHeader />

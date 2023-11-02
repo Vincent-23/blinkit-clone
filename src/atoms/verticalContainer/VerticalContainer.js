@@ -4,7 +4,7 @@ import styles from './verticalContainer.module.scss'
 
 export default function VerticalContainer({ className = "", childern, ...rest }) {
     return (
-        <div className={classNames(styles.verticalContainer, className)} {...rest}>
+        <div className={classNames(styles.verticalContainer, className)} {...rest}x>
             {rest.children}
         </div>
     )

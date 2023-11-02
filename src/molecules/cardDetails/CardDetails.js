@@ -21,8 +21,9 @@ const CardDetails = ({ className = "", items = [] }) => {
             className={styles.priceQuantityItem}
             items={items}
             key={items?.id}
+            type="Card"
           />
-          <VerticalContainer />
+          <VerticalContainer /> 
         </Card>
     </VerticalContainer>
   );

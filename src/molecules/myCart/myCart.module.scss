@@ -17,3 +17,14 @@
     color: white;
     font-size: 15px;
 }
+
+.myCartValueContainer {
+    padding: 5px;
+}
+.myCartValueItem, .myCartPriceItem {
+    padding: 0px;
+    font-size: 15px;
+    color: white;
+    align-self: flex-start;
+    font-weight: bold;
+}

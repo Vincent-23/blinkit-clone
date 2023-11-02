@@ -7,11 +7,10 @@ import styles from "./leftsideBar.module.scss";
 
 const LeftSideBar = () => {
   return (
-    <VerticalContainer className={styles.container}>
-      {/* <HorizontalContainer> */}
-        <CardItem />
-      {/* </HorizontalContainer> */}
-    </VerticalContainer>
+     <CardItem />
+   
+    //  <VerticalContainer className={styles.container}>
+    //  </VerticalContainer>
   );
 };
 

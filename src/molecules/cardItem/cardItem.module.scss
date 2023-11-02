@@ -11,29 +11,16 @@
   border-bottom: none;
   align-items: center;
   position: relative;
-  background-color: #e7f8eb;
-
-  &:hover {
-    background-color: #80f499;
-  }
+  // background-colsor: #d8f0dd;
   
-  // &.active {
-  //   background-color: #ebfeef;
-  //   &::before {
-  //     content: "";
-  //     width: 5px;
-  //     height: 100%;
-  //     background: #008001;
-  //     position: absolute;
-  //     top: 0;
-  //     left: 0;
-  //   }
-  // }
 }
 
 .imageContainer {
   width: 30%;
   height: 50px;
+  &:hover {
+    background-color: red;
+  }
 }
 
 .imageItem {

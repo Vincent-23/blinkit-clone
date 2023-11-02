@@ -12,10 +12,10 @@ const CardPriceQuantity = ({ className="", items = {} }) => {
     <HorizontalContainer className={classNames(styles.container, className)} key={items?.id}>
       <VerticalContainer className={classNames(styles.priceContainer)}>
         <Text className={classNames(styles.offerPrice)}>{`₹ ${items.sellingPrice}`}</Text>
-        <Text className={classNames(styles.mrpPrice)}>{`₹ ${items.actualPrice}`}</Text>
+        {items.sellingPrice !== items.actualPrice ?   <Text className={classNames(styles.mrpPrice)}>{`₹ ${items.actualPrice}`}</Text> : null}
       </VerticalContainer>
       <HorizontalContainer className={classNames(styles.quantityBtnItem)} >
-      <QuantityBtn className={styles.quantityBtn} items={items}/>
+      <QuantityBtn className={styles.quantityBtn} item={items}/>
       </HorizontalContainer>
     </HorizontalContainer>
   );

@@ -2,37 +2,54 @@
   {
     "id": 1,
     "productName": "Supreme Joy Gift Pack",
-    "productImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/532903a.jpg",
+    "productImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/283a.jpg?ts=1689327540",
     "productQuantity": "700 g",
     "actualPrice": 230,
     "discountPercentage": 10,
     "sellingPrice": 200,
     "deliveryTime": "",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
+    "quantity": 0
+  },
+
+  {
+    "id": 1,
+    "productName": "Supreme Joy Gift Pack",
+    "productImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/280a.jpg?ts=1689327540",
+    "productQuantity": "700 g",
+    "actualPrice": 230,
+    "discountPercentage": 10,
+    "sellingPrice": 200,
+    "deliveryTime": "",
+    "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
 
   {
     "id": 2,
     "productName": "Lay's West Indies Hot n Sweet Chilli Flavour",
-    "productImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/289152a.jpg?ts=1684345618",
+    "productImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/385a.jpg?ts=1689327544",
     "productQuantity": "48 g",
     "actualPrice": 12,
     "discountPercentage": 12,
     "sellingPrice": 12,
     "deliveryTime": "14 mins",
+    "category": "Energy Drinks",
     "additionalInfo": "Sourced at 5 AM",
     "quantity": 0
   },
   {
     "id": 3,
     "productName": "Lay's West Indies Hot n Sweet Chilli Flavour",
-    "productImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/240092a.jpg?ts=1687324818",
+    "productImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/19507a.jpg?ts=1689328439",
     "productQuantity": "40 g",
     "actualPrice": 20,
     "discountPercentage": 40,
     "sellingPrice": 20,
     "deliveryTime": "",
+    "category": "Milk Drinks",
     "additionalInfo": "Sourced at 5 AM",
     "quantity": 0
   },
@@ -45,6 +62,7 @@
     "discountPercentage": 0,
     "sellingPrice": 12,
     "deliveryTime": "14 mins",
+    "category": "Fruit Juices",
     "additionalInfo": "Sourced at 5 AM",
     "quantity": 0
   },
@@ -57,6 +75,7 @@
     "discountPercentage": 0,
     "sellingPrice": 20,
     "deliveryTime": "",
+    "category": "Fruit Juices",
     "additionalInfo": "Sourced at 5 AM",
     "quantity": 0
   },
@@ -70,6 +89,7 @@
     "sellingPrice": 12,
     "deliveryTime": "14 mins",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
   {
@@ -82,6 +102,7 @@
     "sellingPrice": 20,
     "deliveryTime": "",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
   {
@@ -94,6 +115,7 @@
     "sellingPrice": 12,
     "deliveryTime": "14 mins",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
   {
@@ -106,6 +128,7 @@
     "sellingPrice": 20,
     "deliveryTime": "",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
 
@@ -119,6 +142,7 @@
     "sellingPrice": 230,
     "deliveryTime": "14 mins",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
 
@@ -132,6 +156,7 @@
     "sellingPrice": 230,
     "deliveryTime": "14 mins",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
 
@@ -145,6 +170,7 @@
     "sellingPrice": 230,
     "deliveryTime": "14 mins",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   },
 
@@ -158,6 +184,7 @@
     "sellingPrice": 230,
     "deliveryTime": "14 mins",
     "additionalInfo": "Sourced at 5 AM",
+    "category": "Fruit Juices",
     "quantity": 0
   }
 ]
