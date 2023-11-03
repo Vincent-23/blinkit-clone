@@ -1,7 +1,7 @@
 .container {
-  margin-top: 10px;
   width: 1220px;
   align-self: center;
+  justify-content: center;
 }
 
 .productItem {
@@ -13,12 +13,11 @@
   height: 70vh;
   background-color: rgb(244, 239, 239);
   overflow: scroll;
-  margin-top: 120px;
+  justify-content: start;
 }
 
 .dropDownItem {
   background-color: #fff;
-  // margin: 40px;
 }
 
 .cardItems {

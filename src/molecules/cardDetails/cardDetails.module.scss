@@ -1,37 +1,36 @@
-
-
 .items {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
-    background-color: white;
-    width: 180px;
-    height: 250px;
-    padding: 10px;
-    border-radius: 10px;
+  background-color: white;
+  width: 180px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .image {
-    text-align: center;
-    padding: 10px;
-    width: 150px;
-    height: 100px;
-    margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .productName {
-    font-weight: 700;
-    text-align: left;
+  font-weight: 700;
+  text-align: left;
 }
 
-.productName, .productQuantity {
-    text-align: left;
+.productName,
+.productQuantity {
+  text-align: left;
 }
 
 .productQuantity {
-    color: gray;
-    font-weight: bold;
-    padding: 10px;
+  color: gray;
+  font-weight: bold;
+  padding: 10px;
 }

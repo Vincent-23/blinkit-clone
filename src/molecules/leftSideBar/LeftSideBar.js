@@ -1,17 +1,15 @@
 import React from "react";
+import PropTypes from "prop-types";
 import classNames from "classnames";
-import VerticalContainer from "../../atoms/verticalContainer";
-import HorizontalContainer from "../../atoms/horizotalContainer";
 import CardItem from "../cardItem";
 import styles from "./leftsideBar.module.scss";
 
-const LeftSideBar = () => {
-  return (
-     <CardItem />
-   
-    //  <VerticalContainer className={styles.container}>
-    //  </VerticalContainer>
-  );
+const LeftSideBar = ({ className = "" }) => {
+  return <CardItem className={classNames(styles.container, className)} />;
+};
+
+LeftSideBar.propTypes = {
+  className: PropTypes.string,
 };
 
 export default LeftSideBar;

@@ -1,10 +1,15 @@
-import React from 'react';
-import CartDetails from '../../organisms/cartDetails';
+import React from "react";
+import classNames from "classnames";
+import PropTypes from "prop-types";
+import CartDetails from "../../organisms/cartDetails";
+import styles from "./cart.module.scss";
 
-const Cart = () => {
-  return (
-    <CartDetails />
-  )
-}
+const Cart = ({ className = "" }) => {
+  return <CartDetails className={classNames(styles.container, className)} />;
+};
 
-export default Cart
+Cart.propTypes = {
+  className: PropTypes.string,
+};
+
+export default Cart;

@@ -1,28 +1,38 @@
 [
-    
-    {
-      "id": 2,
-      "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/1102_1649432926740.png",
-      "title": "Soft Drinks"
-    },
-    {
-      "id": 3,
-      "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/955_1643385414974.png",
-      "title": "Fruit Juices"
-    },
-    {
-      "id": 4,
-      "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/91_1684226377332.png",
-      "title": "Energy Drinks"
-    },
-    {
-      "id": 5,
-      "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/1184_1661407202472.png",
-      "title": "Milk Drinks"
-    },
-    {
-      "id": 6,
-      "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/270_1643385402833.png",
-      "title": "Water & Ice Cubes"
-    }
-  ]
+  {
+    "id": 1,
+    "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/1108_1684311412858.png",
+    "title": "Mango Drinks"
+  },
+
+  {
+    "id": 2,
+    "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/1102_1649432926740.png",
+    "title": "Soft Drinks"
+  },
+  {
+    "id": 3,
+    "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/955_1643385414974.png",
+    "title": "Fruit Juices"
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/91_1684226377332.png",
+    "title": "Energy Drinks"
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/1184_1661407202472.png",
+    "title": "Milk Drinks"
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/270_1643385402833.png",
+    "title": "Water & Ice Cubes"
+  },
+  {
+    "id": 7,
+    "image": "https://cdn.grofers.com/app/images/category/cms_images/icon/1109_1643445639946.png",
+    "title": "Herbal Drinks"
+  }
+]

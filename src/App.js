@@ -1,21 +1,20 @@
 import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
-import { MyContext } from "./context/MyContext";
+import { ProductContext } from "./context/ProductContext";
 import { Provider } from "react-redux";
-import store from './stores/Store';
+import store from "./stores/Store";
 import "./App.css";
 import Products from "./pages/products";
 import Cart from "./pages/cart";
 
 function App() {
-  const [cart, setCart] = useState([]);
-  const [productType, setProductType] = useState("All")
+  const [productType, setProductType] = useState("All");
 
   return (
     <div className="App">
       <Provider store={store}>
-        <MyContext.Provider value={{ cart, setCart,productType, setProductType}}>
+        <ProductContext.Provider value={{ productType, setProductType }}>
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />}>
@@ -24,7 +23,7 @@ function App() {
               </Route>
             </Routes>
           </BrowserRouter>
-        </MyContext.Provider>
+        </ProductContext.Provider>
       </Provider>
     </div>
   );

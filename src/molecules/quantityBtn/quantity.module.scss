@@ -1,20 +1,19 @@
-
-
 .container {
-    display: flex;
-    width: 80px;
-    justify-content: center;
-    color: white;
-    background-color: green;
-    border-radius: 10px;
-    align-items: center;
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  align-items: center;
 }
 
-.addBtnItem, .minusBtnItem {
-    font-size: 15px;
+.addBtnItem,
+.minusBtnItem {
+  font-size: 15px;
 }
 
 .quantityTextItem {
-    font-size: 15px;
-    font-weight: bolder;
+  font-size: 15px;
+  font-weight: bolder;
 }

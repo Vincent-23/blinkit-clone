@@ -1,9 +1,26 @@
-import React from 'react'
+import React from "react";
+import PropTypes from "prop-types";
+import classNames from "classnames";
+import HorizontalContainer from "../../atoms/horizotalContainer";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import styles from "./footerLogo.module.scss";
 
-const FooterLogo = () => {
+const FooterLogo = ({ className = "" }) => {
   return (
-    <div>FooterLogo</div>
-  )
-}
+    <HorizontalContainer className={classNames(styles.container, className)}>
+      <FacebookIcon className={styles.iconsItems} />
+      <TwitterIcon className={styles.iconsItems} />
+      <InstagramIcon className={styles.iconsItems} />
+      <LinkedInIcon className={styles.iconsItems} />
+    </HorizontalContainer>
+  );
+};
 
-export default FooterLogo
+FooterLogo.propTypes = {
+  className: PropTypes.string,
+};
+
+export default FooterLogo;

@@ -1,6 +1,7 @@
-import React, { useEffect, useState, useContext } from "react";
+import React from "react";
+import classNames from "classnames";
+import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
-import { MyContext } from "../../context/MyContext";
 import DeliveryInfo from "../../molecules/deliveryInfo";
 import SearchBar from "../../atoms/searchBar";
 import ListItems from "../../datas/listItems.json";
@@ -9,29 +10,25 @@ import VerticalContainer from "../../atoms/verticalContainer";
 import HorizontalContainer from "../../atoms/horizotalContainer";
 import Text from "../../atoms/text";
 import MenuItems from "../../molecules/menuItems";
-import Button from '../../atoms/button'
 import MyCart from "../../molecules/myCart";
 import styles from "./header.module.scss";
 
-const Header = () => {
-  const { cartItem } = useContext(MyContext);
-  const [cartCount, setCartCount] = useState("");
-  const [items, setItems] = useState("");
+const Header = ({ className = "" }) => {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    setCartCount(cartItem);
-  }, [cartItem]);
-
   const handleNavigateToHome = () => {
-    navigate('/');
-  }
+    navigate("/");
+  };
   return (
-    <>
+    <VerticalContainer className={classNames(styles.container, className)}>
       <VerticalContainer className={styles.headerVerticalContainer}>
         <VerticalContainer className="">
           <HorizontalContainer>
-            <Logo className={styles.navLogo}  image="/logo.svg" onClick={() => handleNavigateToHome()}/>
+            <Logo
+              className={styles.navLogo}
+              image="/logo.svg"
+              onClick={() => handleNavigateToHome()}
+            />
             <DeliveryInfo />
             <SearchBar />
             <Text className={styles.navLogin}>Login</Text>
@@ -40,8 +37,12 @@ const Header = () => {
         </VerticalContainer>
       </VerticalContainer>
       <MenuItems items={ListItems} />
-    </>
+    </VerticalContainer>
   );
+};
+
+Header.propTypes = {
+  className: PropTypes.string,
 };
 
 export default Header;

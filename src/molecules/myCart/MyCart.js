@@ -1,8 +1,9 @@
 import React from "react";
 import classNames from "classnames";
+import PropTypes from "prop-types";
 import Button from "../../atoms/button/Button";
 import HorizontalContainer from "../../atoms/horizotalContainer";
-import VerticalContainer from '../../atoms/verticalContainer';
+import VerticalContainer from "../../atoms/verticalContainer";
 import Text from "../../atoms/text";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { useNavigate } from "react-router-dom";
@@ -23,8 +24,7 @@ const MyCart = ({ className = "" }) => {
       if (e.quantity) total += e.quantity * e.sellingPrice;
     });
     return total;
-    
-  }
+  };
 
   const getTotalQuantity = () => {
     let quantity = 0;
@@ -32,8 +32,7 @@ const MyCart = ({ className = "" }) => {
       if (e.quantity) quantity += e.quantity;
     });
     return quantity;
-    
-  }
+  };
 
   return (
     <Button className={classNames(styles.btnContainer, className)}>
@@ -53,13 +52,21 @@ const MyCart = ({ className = "" }) => {
           </Text>
         ) : (
           <VerticalContainer className={styles.myCartValueContainer}>
-            <Text className={classNames(styles.myCartValueItem)}>{getTotalQuantity()} items</Text>
-            <Text className={classNames(styles.myCartPriceItem)}>₹ {getTotalAmount()}</Text>
+            <Text className={classNames(styles.myCartValueItem)}>
+              {getTotalQuantity()} items
+            </Text>
+            <Text className={classNames(styles.myCartPriceItem)}>
+              ₹ {getTotalAmount()}
+            </Text>
           </VerticalContainer>
         )}
       </HorizontalContainer>
     </Button>
   );
+};
+
+MyCart.propTypes = {
+  className: PropTypes.string,
 };
 
 export default MyCart;

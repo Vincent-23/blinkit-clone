@@ -1,3 +1,3 @@
-import Buttom from '../button/Button';
+import Buttom from "../button/Button";
 
 export default Buttom;

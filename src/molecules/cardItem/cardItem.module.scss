@@ -4,23 +4,21 @@
 
 .itemContainer {
   display: flex;
-  // border: none;
   width: 240px;
   padding: 4px;
   border: 1px solid #eee;
   border-bottom: none;
   align-items: center;
-  position: relative;
-  // background-colsor: #d8f0dd;
-  
+  border-left: 3px solid transparent;
+  &:hover {
+    background-color: #d8f0dd;
+    border-left: 3px solid green;
+  }
 }
 
 .imageContainer {
   width: 30%;
   height: 50px;
-  &:hover {
-    background-color: red;
-  }
 }
 
 .imageItem {
