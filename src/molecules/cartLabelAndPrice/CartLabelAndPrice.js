@@ -4,11 +4,11 @@ import PropTypes from "prop-types";
 import VerticalContainer from "../../atoms/verticalContainer";
 import HorizontalContainer from "../../atoms/horizotalContainer";
 import Text from "../../atoms/text";
-import cartHelper from "../../helper/cartHelper";
+import CartHelper from "../../helper/cartHelper";
 import styles from "./cartLabelAndPrice.module.scss";
 
 const CartLabelAndPrice = ({ className = "" }) => {
-  const { getMRPAmount, getDiscountPrice } = cartHelper();
+  const { getMRPAmount, getDiscountPrice } = CartHelper();
   return (
     <HorizontalContainer className={classNames(styles.container, className)}>
       <VerticalContainer className={classNames(styles.items)}>

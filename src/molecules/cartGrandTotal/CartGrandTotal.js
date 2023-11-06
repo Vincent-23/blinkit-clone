@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 import VerticalContainer from "../../atoms/verticalContainer";
 import HorizontalContainer from "../../atoms/horizotalContainer";
 import Text from "../../atoms/text";
-import cartHelper from "../../helper/cartHelper";
+import CartHelper from "../../helper/cartHelper";
 import styles from "./cartGrandTotal.module.scss";
 
 const CartGrandTotal = ({ className = " " }) => {
 
-  const { getTotalAmount } = cartHelper();
+  const { getTotalAmount } = CartHelper();
   return (
     <VerticalContainer className={classNames(styles.container, className)}>
       <HorizontalContainer className={classNames(styles.items)}>

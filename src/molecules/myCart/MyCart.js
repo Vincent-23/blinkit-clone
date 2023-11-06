@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 import Button from "../../atoms/button/Button";
 import HorizontalContainer from "../../atoms/horizotalContainer";
 import VerticalContainer from "../../atoms/verticalContainer";
@@ -35,7 +35,8 @@ const MyCart = ({ className = "" }) => {
   };
 
   return (
-    <Button className={classNames(styles.btnContainer, className)}>
+    <Button className={classNames(styles.btnContainer, className)} onClick={() => handleNavigate()}
+    >
       <HorizontalContainer
         className={classNames(styles.itemContainer, className)}
       >
@@ -45,7 +46,6 @@ const MyCart = ({ className = "" }) => {
         {cart.length === 0 ? (
           <Text
             className={classNames(styles.cartText)}
-            onClick={() => handleNavigate()}
           >
             {" "}
             My Cart
@@ -66,7 +66,7 @@ const MyCart = ({ className = "" }) => {
 };
 
 MyCart.propTypes = {
-  className: PropTypes.string,
-};
+  className: PropTypes.string
+}
 
 export default MyCart;
