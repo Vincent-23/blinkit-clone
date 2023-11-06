@@ -25,7 +25,7 @@ const Products = ({ className = "" }) => {
 
   return (
     <HorizontalContainer className={styles.container}>
-      <LeftSideBar />
+      <LeftSideBar className={classNames(styles.leftSideBar, className)} />
       <VerticalContainer
         className={classNames(styles.headerDropDown, className)}
       >
