@@ -6,11 +6,11 @@ import Text from "../../atoms/text";
 import Button from "../../atoms/button";
 import styles from "./noCartFound.module.scss";
 
-const NoCartFound = ({ className = "" }) => {
+const NoCartFound = ({ className = "", onNavigateClick = () => {} }) => {
   return (
     <VerticalContainer className={classNames(styles.container, className)}>
       <Text className={classNames(styles.noCartText)}>No Cart Found</Text>
-      <Button className={classNames(styles.reDirectBtn)}>
+      <Button className={classNames(styles.reDirectBtn)} onClick={onNavigateClick}>
         Continue shopping
       </Button>
     </VerticalContainer>
@@ -19,5 +19,6 @@ const NoCartFound = ({ className = "" }) => {
 
 NoCartFound.propTypes = {
   className: PropTypes.string,
+  onNavigateClick: PropTypes.func
 };
 export default NoCartFound;

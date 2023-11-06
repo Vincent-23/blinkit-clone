@@ -1,0 +1,27 @@
+
+.container {
+    margin: 200px
+}
+
+.noCartText {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(196, 194, 194);
+}
+
+.reDirectBtn {
+    background-color: green;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    &:hover {
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+        font-weight: 700;
+    }
+}
