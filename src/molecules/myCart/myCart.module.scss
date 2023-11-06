@@ -1,0 +1,34 @@
+.btnContainer {
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 120px;
+  padding: 0px 10px 0px 10px;
+}
+
+.shopIcon {
+  color: white;
+  font-size: 30px;
+}
+
+.cartText {
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  width: 100px;
+}
+
+.myCartValueContainer {
+  padding: 5px;
+
+}
+.myCartValueItem,
+.myCartPriceItem {
+  padding: 0px;
+  font-size: 15px;
+  color: white;
+  align-self: flex-start;
+  font-weight: bold;
+
+}

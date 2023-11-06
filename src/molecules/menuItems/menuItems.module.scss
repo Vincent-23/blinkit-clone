@@ -1,0 +1,19 @@
+.menuItemsContainer {
+  border: 1px solid rgb(248, 244, 244);
+  align-items: center;
+  font-size: 15px;
+  padding: 15px;
+  background-color: white;
+}
+
+.menuItems {
+  width: 1220px;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(148, 143, 143);
+}
+
+.menuChildItems {
+  font-size: 15px;
+  padding: 3px;
+}

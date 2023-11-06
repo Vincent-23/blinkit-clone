@@ -1,0 +1,21 @@
+.deliveryInfoContainer {
+  position: relative;
+}
+
+.deliveryText {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.locationText {
+  font-size: 12px;
+  padding: 0px;
+  color: gray;
+}
+
+.searchIcon {
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+  min-width: 40px;
+}

@@ -1,0 +1,31 @@
+.container {
+  width: 1220px;
+  align-self: center;
+  justify-content: center;
+}
+
+.productItem {
+  align-self: flex-start;
+  width: 1220px;
+}
+.headerDropDown {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(244, 239, 239);
+  overflow: scroll;
+  justify-content: start;
+}
+
+.dropDownItem {
+  background-color: #fff;
+}
+
+.cardItems {
+  height: 100%;
+  padding: 10px;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
